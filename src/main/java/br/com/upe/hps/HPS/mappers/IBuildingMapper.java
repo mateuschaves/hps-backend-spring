@@ -1,6 +1,7 @@
 package br.com.upe.hps.HPS.mappers;
 
 import br.com.upe.hps.HPS.dtos.CreateBuildingDto;
+import br.com.upe.hps.HPS.dtos.UpdateBuildingDto;
 import br.com.upe.hps.HPS.models.Building;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -14,4 +15,5 @@ public interface IBuildingMapper {
 
     @Mapping(target = "cep", source = "cep")
     Building toModel(CreateBuildingDto createBuildingDto);
+
 }
