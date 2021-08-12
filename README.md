@@ -35,6 +35,8 @@ Para instalar o HPS, siga estas etapas:
 2. Inicie o Postgres
 3. Execute o projeto na sua IDE de preferência
 
+[🗂 Collection dos endpoints no Insomnia](https://raw.githubusercontent.com/mateuschaves/hps-backend-spring/master/collection-insomnia.json)
+
 ## 🤝 Colaboradores
 
 Equipe do projeto:
