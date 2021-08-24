@@ -1,26 +1,18 @@
 package br.com.upe.hps.HPS.dtos;
 
-import br.com.upe.hps.HPS.models.Address;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class CreateBuildingDto {
-    @NotEmpty
-    private String building;
-    @NotEmpty
-    private String owner;
-    @NotEmpty
-    private String contact;
+public class CreateAddressDto {
     @NotEmpty
     private String description;
     @NotEmpty
@@ -37,8 +29,4 @@ public class CreateBuildingDto {
     private String number;
     @NotEmpty
     private String referencePoint;
-    @NotNull
-    private Float price;
-
-    private Address address;
 }

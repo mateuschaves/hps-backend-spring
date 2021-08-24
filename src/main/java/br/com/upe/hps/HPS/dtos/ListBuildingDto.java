@@ -20,11 +20,11 @@ public class ListBuildingDto {
         this.id = building.getId();
         this.building = building.getBuilding();
         this.description = building.getDescription();
-        this.street = building.getStreet();
-        this.number = building.getNumber();
-        this.neighborhood = building.getNeighborhood();
-        this.city = building.getCity();
-        this.uf = building.getUf();
+        this.street = building.getAddress().getStreet();
+        this.number = building.getAddress().getNumber();
+        this.neighborhood = building.getAddress().getNeighborhood();
+        this.city = building.getAddress().getCity();
+        this.uf = building.getAddress().getUf();
         this.price = building.getPrice();
     }
 

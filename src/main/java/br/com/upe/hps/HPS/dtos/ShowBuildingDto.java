@@ -1,7 +1,5 @@
 package br.com.upe.hps.HPS.dtos;
 
-import javax.validation.constraints.NotEmpty;
-
 public class ShowBuildingDto {
     private String id;
 

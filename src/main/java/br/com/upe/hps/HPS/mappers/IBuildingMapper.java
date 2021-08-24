@@ -13,7 +13,7 @@ public interface IBuildingMapper {
 
     IBuildingMapper INSTANCE = Mappers.getMapper(IBuildingMapper.class);
 
-    @Mapping(target = "cep", source = "cep")
+    @Mapping(target = "owner", source = "owner")
     Building toModel(CreateBuildingDto createBuildingDto);
 
 }
